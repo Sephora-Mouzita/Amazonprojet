@@ -1,0 +1,86 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.account{
+    text-align: center;
+    color: rgb(202, 148, 11);
+    
+    }
+    
+    .name1:focus{
+        border: 1px solid rgb(160, 52, 154);
+    }
+    .amazondark{
+        height: 50px;
+        background-color: white;
+    }
+    
+    .contenaire{
+        position: relative;
+        top: 70px;
+        width: 420px;
+        height: 500px;
+        border: 2px solid rgb(170, 165, 165);
+        border-radius: 5px;
+        
+        
+    }
+  .center{
+    padding: 0 auto;
+  }
+    .titre{
+        margin-top: 10px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    input{
+        width: 370px;
+        height: 25px;
+        border-radius: 3px;
+        margin-bottom: 13px;
+        border: 1px solid rgb(187, 181, 181);
+    }
+.titre {
+    margin-left: 22px ;
+    width: 500px;
+}
+    
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    margin-bottom: 13px;
+        height: 25px;
+        border-radius: 3px;
+        border: 1px solid rgb(119, 101, 66);
+        background-color: rgb(238, 166, 33);
+}
+
+.info{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+.text{
+    font-size: 13px;
+}
+
+.mail, .name1{
+    margin-left: 22px ;
+}

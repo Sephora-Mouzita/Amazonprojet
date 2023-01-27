@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hwb(60 86% 13%) ;
+}
+
+.bande1{
+    background-color: rgb(85, 23, 148);
+    display: flex;
+    height: 72px;
+    
+}
+
+/* Logo */
+.logoAma{
+    margin: 4px;
+}
+/* Localisation général */
+.font1{
+    display: inline-block;
+}
+
+
+
+/* Bar de recherche */
+form{
+    margin-top: 14px;
+    width: 700px;
+    height: 45px;
+    border: 1px solid;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+    background-color:rgb(211, 207, 203) ;
+    border: none;
+}
+/* Button search */
+.btn{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0  10px 10px 0;
+    background-color: aqua;
+}
+form select{
+    height: 100%;
+     border: none;
+    margin-left: 10px;
+    background-color:rgb(211, 207, 203) ;
+}
+form input{
+    /* margin-left: 9px; */
+    border: none;
+    height: 100% ;
+    width: 580px;
+}
+
+form input:focus{
+    border: 2px solid cyan;
+    background-color: aqua;
+}
+form .search1{
+    margin-top: 5px;
+    width: 40px;
+}
+
+select{
+    width: 55px;
+    height: 30px;
+    font-size: 14px;
+}
+.search{
+    width: 650px;
+    /* A enlever */
+   
+}
+
+.bande1 .panneau{
+    width: 30px;
+    height: 25px;
+    margin: 20px 0 0 0;
+    color: white;
+
+}
+
+.bande1 .localisation-general{
+    width: 70px;
+    position: relative;
+    
+}
+/* Le left de la bande */
+.left{
+    /* margin-top: 10px; */
+    display: flex;
+    width: 362px;
+    margin-left: 10px;
+   
+     
+    height: 72px;
+    color: white;
+}
+.usa{
+    margin: 10px;
+    width: 100px;
+    height: 75px;
+    /* A enlever */
+    
+}
+.Return{
+    margin-top: 10px;
+}
+.titre1{
+    
+    margin-top: 10px;
+    
+    
+}
+.text2{
+    display: inline-block;
+}
+.Hello{
+    margin-top: 13px;
+}
+.usa img{
+    width: 25px;
+}
+.tria2{
+    width: 13px;
+}
+.fr img{
+    margin-top: 22px;
+    width: 13px;
+}
+.titre2{
+    
+   display: inline-block;
+   
+}
+.panier2{
+    margin-top: 10px;
+    position: relative;
+    left: -15px;
+    width: 40px;
+}
+/* Bande2 */
+
+.bande2{
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: flex;
+    height: 40px;
+    background-color: aqua;
+}
+.nav{
+    width: 900px;
+}
+.nav ul li{
+    height: 40px;
+    text-align: center;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+  float: left;
+}
+.nav ul:first-child{
+    margin-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.nav ul li:hover{
+    background-color: rgb(28, 163, 163);
+}
+.lef1 img{
+    width: 30px;
+    margin: 5px;
+    margin-left: 15px;
+}
+.lef1 .all .text4{
+    position: relative;
+    top: -14px;
+}
+
+.right{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+/* Corps de la page Html */
+
+/* Premier element */
+/* Image */
+.top{
+    height: 300px;
+    background-size: cover;
+    background-image: url(img/image1.jpg);
+}
+.contenair{
+    margin-left: 14px;
+    width: 1320px;
+    height: 930px;
+    position: relative;
+    top: -130px;
+    margin-top: 50px;
+}
+.case{
+   width: 320px; 
+   height: 400px ;
+   margin: 5px;
+   background-color: white;
+}
+
+.case .head h2{
+    
+    margin: 10px 10px 5px 10px;
+    padding: 
+    10px 10px 5px 10px;
+    color: black;
+
+}
+
+.case .Corp{
+    margin: auto;
+    width: 270px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: azure;
+}
+
+.case .foot{
+    color: aqua; 
+    margin: 10px 10px 5px 10px;
+    padding: 
+    10px 10px 5px 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.fitness{
+    padding-top: 2px;
+    width: 270px;
+    height: 300px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Page de connexion */
+
+.login{
+    height: 27.5%;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: sans-serif;
+    padding: 
+    12px 10px 5px 18px;
+
+}
+
+.login .btn{
+    margin-top: 10px;
+    
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    height: 26px;
+    width: 283px;
+    border-radius: 25px;
+    background-color: orange;
+}
+
+.mini{
+    padding: 
+    8px 10px 5px 18px;
+    height: 70%;
+    background-color: white;
+}
+
+.mini .fit{
+    width: 285px;
+    height: 50%;
+}
+
+.Log{
+    width: 320px; 
+    height: 400px ;
+    margin: 5px;
+    background-color:inherit;
+ }
+
+ .foot1{
+    color: aqua;
+    padding-top: 7px ;
+ }
+
+ .quart{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .minus img{
+    margin: 3px;
+    margin-top: 0;
+    width: 120px;
+    height: 140px;
+    background-color: blue;
+ }
+
+ .minus1 img{
+    margin: 3px;
+    margin-top: 0;
+    width: 120px;
+    height: 140px;
+    background-color: blue;
+ }
+ .minus2 img{
+    margin: 3px;
+    margin-top: 0;
+    width: 120px;
+    height: 140px;
+    background-color: blue;
+ }
+ .minus3 img{
+   
+    margin: 3px;
+    margin-top: 0;
+    width: 120px;
+    height: 140px;
+    background-color: blue;
+ }
+
+ /* Deuxième type de ligne */
+
+ .row2{
+    width: 1309px;
+    margin: 6px 5px;
+    margin-bottom: 12px;
+    height: 281.5px;
+    background-color: #fff;
+ }
+
+.row2 .head{
+    font-size: 23px;
+    margin: 0 20px;
+    margin-bottom: 0px;
+    padding-top: 23px;
+}
+
+.row2 .products img{
+    margin-top: 12px;
+   
+    padding:0 16px;
+    width: 133px;
+    height: 200px;
+    cursor: pointer;
+}
+.row2 .products img:first-of-type{
+    padding:0 0;
+}
+.row2 .products img:last-of-type{
+    padding:0 0;
+}
+.row2 .products-all{
+
+    display: flex;
+    overflow-x: scroll;
+    border-right: 23px solid #fff;
+    border-left: 23px solid #fff;
+}
+
+
+
+.qua{
+    height: 300px;
+}
+.account{
+text-align: center;
+color: rgb(202, 148, 11);
+
+}
+.name1{
+    border: 1px solid rgb(228, 13, 13);
+}
+.name1:focus{
+    border: 1px solid rgb(160, 52, 154);
+}
+.amazondark{
+    height: 50px;
+    background-color: white;
+}
+
+.contenaire{
+    border: 1px solid #ddd;
+}
+
